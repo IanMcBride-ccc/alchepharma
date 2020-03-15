@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Alchepharma</string>
+    <string name="back_button">Back</string>
+    <string name="start_button">Go to Work</string>
+    <string name="job_list_button">Job Checklist</string>
+    <string name="potion_button">Start Work</string>
+    <string name="main_menu_button">Menu</string>
+    <string name="option_button">Options</string>
+    <string name="stir_button">Start</string>
+    <string name="temp_button">Temp</string>
+
+    <string name="base_dialog">What can I help you with?</string>
+
+    <string name="empty_toast">This function is currently missing</string>
+</resources>
