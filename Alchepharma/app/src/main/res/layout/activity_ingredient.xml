@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:launchMode="singleTop">
+
+    <Button
+        android:id="@+id/ingred_button_one"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="100dp"
+        android:text=""
+        android:background="@drawable/buttonback"/>
+
+    <Button
+        android:id="@+id/ingred_button_two"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="100dp"
+        android:text=""
+        android:background="@drawable/buttonback"/>
+
+    <TextView
+        android:id="@+id/descriptionBox"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-50dp"
+        android:background="@drawable/textback"
+        android:text="@string/potion_desc"
+        android:textSize="15dp"
+        android:textColor="#151413"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <Button
+        android:id="@+id/stir_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="@string/stir_button"
+        android:background="@drawable/buttonback" />
+
+    <Button
+        android:id="@+id/follower_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="5dp"
+        android:text="@string/back_button"
+        android:background="@drawable/buttonback" />
+
+</FrameLayout>

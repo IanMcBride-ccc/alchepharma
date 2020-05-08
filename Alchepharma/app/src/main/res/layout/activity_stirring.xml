@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:textSize="35dp"
+        android:textColor="#151413"
+        android:text="30"
+        android:id="@+id/timerReminder" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tui_bar"
+        android:id="@+id/stirBar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="-5dp"
+        android:scaleX="1"
+        android:src="@drawable/tui_passbar"
+        android:id="@+id/stirBarMarker" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="-55dp"
+        android:src="@drawable/tui_arrow"
+        android:id="@+id/stirCursor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:textSize="35dp"
+        android:text="0"
+        android:id="@+id/stir_review" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="-60dp"
+        android:enabled="true"
+        android:text="1"
+        android:id="@+id/button1"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="60dp"
+        android:enabled="false"
+        android:text="2"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:enabled="false"
+        android:text="3"
+        android:id="@+id/button3"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="60dp"
+        android:enabled="false"
+        android:text="4"
+        android:id="@+id/button4"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="-60dp"
+        android:enabled="false"
+        android:text="5"
+        android:id="@+id/button5"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-120dp"
+        android:enabled="false"
+        android:text="6"
+        android:id="@+id/button6"/>
+</FrameLayout>
